@@ -7,6 +7,7 @@
 //
 
 #import "CountryDetailViewController.h"
+#import "CountryClass.h"
 
 @interface CountryDetailViewController ()
 
@@ -27,9 +28,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-
-    
     
 }
 

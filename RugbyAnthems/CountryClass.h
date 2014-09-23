@@ -10,7 +10,7 @@
 
 @interface CountryClass : NSObject
 
-@property (strong, nonatomic) NSString              *conutryName;
+@property (strong, nonatomic) NSString              *countryName;
 @property (strong, nonatomic) NSString              *songTitle;
 @property (strong, nonatomic) NSString              *aboutHTML;
 @property (strong, nonatomic) NSString              *lyricsHTML;
@@ -21,6 +21,6 @@
 
 @property (nonatomic, strong) NSArray               *countries;
 
-
+-(NSArray *) getCountryFromJSONArray:(NSArray *)jsonArray;
 
 @end

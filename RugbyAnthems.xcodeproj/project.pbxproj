@@ -30,7 +30,6 @@
 		03A76595190C400600B6350F /* LyricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A76594190C400600B6350F /* LyricsViewController.m */; };
 		03A76598190C401400B6350F /* AboutAnthemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A76597190C401400B6350F /* AboutAnthemViewController.m */; };
 		03A7659B190C48B300B6350F /* CountryClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7659A190C48B300B6350F /* CountryClass.m */; };
-		03EFFFB8196301E50005589F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFFB7196301E50005589F /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +76,6 @@
 		03A76597190C401400B6350F /* AboutAnthemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutAnthemViewController.m; sourceTree = "<group>"; };
 		03A76599190C48B300B6350F /* CountryClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryClass.h; sourceTree = "<group>"; };
 		03A7659A190C48B300B6350F /* CountryClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryClass.m; sourceTree = "<group>"; };
-		03EFFFB6196301E50005589F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		03EFFFB7196301E50005589F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,8 +191,6 @@
 			children = (
 				03A76567190C3C9F00B6350F /* ViewController.h */,
 				03A76568190C3C9F00B6350F /* ViewController.m */,
-				03EFFFB6196301E50005589F /* TableViewCell.h */,
-				03EFFFB7196301E50005589F /* TableViewCell.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -355,7 +350,6 @@
 				03A76569190C3C9F00B6350F /* ViewController.m in Sources */,
 				03A76563190C3C9E00B6350F /* AppDelegate.m in Sources */,
 				03A7659B190C48B300B6350F /* CountryClass.m in Sources */,
-				03EFFFB8196301E50005589F /* TableViewCell.m in Sources */,
 				03A7658C190C3FB800B6350F /* CountryDetailViewController.m in Sources */,
 				03A76595190C400600B6350F /* LyricsViewController.m in Sources */,
 				03A76598190C401400B6350F /* AboutAnthemViewController.m in Sources */,
