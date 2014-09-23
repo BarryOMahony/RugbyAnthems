@@ -8,11 +8,27 @@
 
 #import "AppDelegate.h"
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0x1d) >> 16))/255.0 green:((float)((rgbValue & 0x33) >> 8))/255.0 blue:((float)(rgbValue & 0x9b))/255.0 alpha:1.0]
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x1d339b)];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
+    shadow.shadowOffset = CGSizeMake(0, 0);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           [UIFont fontWithName:@"HelveticaNeue" size:21.0], NSFontAttributeName, nil]];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    
     return YES;
 }
 							

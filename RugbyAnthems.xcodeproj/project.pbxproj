@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039BD4E719D1D93A00241ACD /* Englandflag.png in Resources */ = {isa = PBXBuildFile; fileRef = 039BD4E319D1D93A00241ACD /* Englandflag.png */; };
+		039BD4E819D1D93A00241ACD /* FranceFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 039BD4E419D1D93A00241ACD /* FranceFlag.png */; };
+		039BD4E919D1D93A00241ACD /* IrishFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 039BD4E519D1D93A00241ACD /* IrishFlag.png */; };
+		039BD4EA19D1D93A00241ACD /* NewZealandFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 039BD4E619D1D93A00241ACD /* NewZealandFlag.png */; };
 		03A76553190C3C9E00B6350F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A76552190C3C9E00B6350F /* Foundation.framework */; };
 		03A76555190C3C9E00B6350F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A76554190C3C9E00B6350F /* CoreGraphics.framework */; };
 		03A76557190C3C9E00B6350F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A76556190C3C9E00B6350F /* UIKit.framework */; };
@@ -21,6 +25,12 @@
 		03A76574190C3C9F00B6350F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A76556190C3C9E00B6350F /* UIKit.framework */; };
 		03A7657C190C3C9F00B6350F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A7657A190C3C9F00B6350F /* InfoPlist.strings */; };
 		03A7657E190C3C9F00B6350F /* RugbyAnthemsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7657D190C3C9F00B6350F /* RugbyAnthemsTests.m */; };
+		03A7658C190C3FB800B6350F /* CountryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7658B190C3FB800B6350F /* CountryDetailViewController.m */; };
+		03A76592190C3FFC00B6350F /* TranslatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A76591190C3FFC00B6350F /* TranslatedViewController.m */; };
+		03A76595190C400600B6350F /* LyricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A76594190C400600B6350F /* LyricsViewController.m */; };
+		03A76598190C401400B6350F /* AboutAnthemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A76597190C401400B6350F /* AboutAnthemViewController.m */; };
+		03A7659B190C48B300B6350F /* CountryClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7659A190C48B300B6350F /* CountryClass.m */; };
+		03EFFFB8196301E50005589F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFFB7196301E50005589F /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039BD4E319D1D93A00241ACD /* Englandflag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Englandflag.png; sourceTree = "<group>"; };
+		039BD4E419D1D93A00241ACD /* FranceFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FranceFlag.png; sourceTree = "<group>"; };
+		039BD4E519D1D93A00241ACD /* IrishFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IrishFlag.png; sourceTree = "<group>"; };
+		039BD4E619D1D93A00241ACD /* NewZealandFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandFlag.png; sourceTree = "<group>"; };
 		03A7654F190C3C9E00B6350F /* RugbyAnthems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RugbyAnthems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A76552190C3C9E00B6350F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03A76554190C3C9E00B6350F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +67,18 @@
 		03A76579190C3C9F00B6350F /* RugbyAnthemsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RugbyAnthemsTests-Info.plist"; sourceTree = "<group>"; };
 		03A7657B190C3C9F00B6350F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03A7657D190C3C9F00B6350F /* RugbyAnthemsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RugbyAnthemsTests.m; sourceTree = "<group>"; };
+		03A7658A190C3FB800B6350F /* CountryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryDetailViewController.h; sourceTree = "<group>"; };
+		03A7658B190C3FB800B6350F /* CountryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryDetailViewController.m; sourceTree = "<group>"; };
+		03A76590190C3FFC00B6350F /* TranslatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslatedViewController.h; sourceTree = "<group>"; };
+		03A76591190C3FFC00B6350F /* TranslatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslatedViewController.m; sourceTree = "<group>"; };
+		03A76593190C400600B6350F /* LyricsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsViewController.h; sourceTree = "<group>"; };
+		03A76594190C400600B6350F /* LyricsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsViewController.m; sourceTree = "<group>"; };
+		03A76596190C401400B6350F /* AboutAnthemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutAnthemViewController.h; sourceTree = "<group>"; };
+		03A76597190C401400B6350F /* AboutAnthemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutAnthemViewController.m; sourceTree = "<group>"; };
+		03A76599190C48B300B6350F /* CountryClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryClass.h; sourceTree = "<group>"; };
+		03A7659A190C48B300B6350F /* CountryClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryClass.m; sourceTree = "<group>"; };
+		03EFFFB6196301E50005589F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		03EFFFB7196301E50005589F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +105,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039BD4E219D1D8F400241ACD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				039BD4E319D1D93A00241ACD /* Englandflag.png */,
+				039BD4E419D1D93A00241ACD /* FranceFlag.png */,
+				039BD4E519D1D93A00241ACD /* IrishFlag.png */,
+				039BD4E619D1D93A00241ACD /* NewZealandFlag.png */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		03A76546190C3C9E00B6350F = {
 			isa = PBXGroup;
 			children = (
+				03A76564190C3C9F00B6350F /* Main.storyboard */,
 				03A76558190C3C9E00B6350F /* RugbyAnthems */,
 				03A76577190C3C9F00B6350F /* RugbyAnthemsTests */,
 				03A76551190C3C9E00B6350F /* Frameworks */,
@@ -112,12 +150,10 @@
 		03A76558190C3C9E00B6350F /* RugbyAnthems */ = {
 			isa = PBXGroup;
 			children = (
-				03A76561190C3C9E00B6350F /* AppDelegate.h */,
-				03A76562190C3C9E00B6350F /* AppDelegate.m */,
-				03A76564190C3C9F00B6350F /* Main.storyboard */,
-				03A76567190C3C9F00B6350F /* ViewController.h */,
-				03A76568190C3C9F00B6350F /* ViewController.m */,
+				03A76587190C3F4500B6350F /* Home */,
+				03A76589190C3F7700B6350F /* Detail Country */,
 				03A7656A190C3C9F00B6350F /* Images.xcassets */,
+				03A76588190C3F6200B6350F /* Delegate */,
 				03A76559190C3C9E00B6350F /* Supporting Files */,
 			);
 			path = RugbyAnthems;
@@ -126,6 +162,7 @@
 		03A76559190C3C9E00B6350F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				039BD4E219D1D8F400241ACD /* New Group */,
 				03A7655A190C3C9E00B6350F /* RugbyAnthems-Info.plist */,
 				03A7655B190C3C9E00B6350F /* InfoPlist.strings */,
 				03A7655E190C3C9E00B6350F /* main.m */,
@@ -150,6 +187,67 @@
 				03A7657A190C3C9F00B6350F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03A76587190C3F4500B6350F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03A76567190C3C9F00B6350F /* ViewController.h */,
+				03A76568190C3C9F00B6350F /* ViewController.m */,
+				03EFFFB6196301E50005589F /* TableViewCell.h */,
+				03EFFFB7196301E50005589F /* TableViewCell.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		03A76588190C3F6200B6350F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				03A76561190C3C9E00B6350F /* AppDelegate.h */,
+				03A76562190C3C9E00B6350F /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		03A76589190C3F7700B6350F /* Detail Country */ = {
+			isa = PBXGroup;
+			children = (
+				03A76599190C48B300B6350F /* CountryClass.h */,
+				03A7659A190C48B300B6350F /* CountryClass.m */,
+				03A7658A190C3FB800B6350F /* CountryDetailViewController.h */,
+				03A7658B190C3FB800B6350F /* CountryDetailViewController.m */,
+				03A7658F190C3FDA00B6350F /* Detail Translated */,
+				03A7658E190C3FCE00B6350F /* Detail Lyrcis */,
+				03A7658D190C3FC100B6350F /* Detail About */,
+			);
+			name = "Detail Country";
+			sourceTree = "<group>";
+		};
+		03A7658D190C3FC100B6350F /* Detail About */ = {
+			isa = PBXGroup;
+			children = (
+				03A76596190C401400B6350F /* AboutAnthemViewController.h */,
+				03A76597190C401400B6350F /* AboutAnthemViewController.m */,
+			);
+			name = "Detail About";
+			sourceTree = "<group>";
+		};
+		03A7658E190C3FCE00B6350F /* Detail Lyrcis */ = {
+			isa = PBXGroup;
+			children = (
+				03A76593190C400600B6350F /* LyricsViewController.h */,
+				03A76594190C400600B6350F /* LyricsViewController.m */,
+			);
+			name = "Detail Lyrcis";
+			sourceTree = "<group>";
+		};
+		03A7658F190C3FDA00B6350F /* Detail Translated */ = {
+			isa = PBXGroup;
+			children = (
+				03A76590190C3FFC00B6350F /* TranslatedViewController.h */,
+				03A76591190C3FFC00B6350F /* TranslatedViewController.m */,
+			);
+			name = "Detail Translated";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +328,11 @@
 			files = (
 				03A7656B190C3C9F00B6350F /* Images.xcassets in Resources */,
 				03A7655D190C3C9E00B6350F /* InfoPlist.strings in Resources */,
+				039BD4E919D1D93A00241ACD /* IrishFlag.png in Resources */,
+				039BD4E819D1D93A00241ACD /* FranceFlag.png in Resources */,
 				03A76566190C3C9F00B6350F /* Main.storyboard in Resources */,
+				039BD4EA19D1D93A00241ACD /* NewZealandFlag.png in Resources */,
+				039BD4E719D1D93A00241ACD /* Englandflag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +351,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A76592190C3FFC00B6350F /* TranslatedViewController.m in Sources */,
 				03A76569190C3C9F00B6350F /* ViewController.m in Sources */,
 				03A76563190C3C9E00B6350F /* AppDelegate.m in Sources */,
+				03A7659B190C48B300B6350F /* CountryClass.m in Sources */,
+				03EFFFB8196301E50005589F /* TableViewCell.m in Sources */,
+				03A7658C190C3FB800B6350F /* CountryDetailViewController.m in Sources */,
+				03A76595190C400600B6350F /* LyricsViewController.m in Sources */,
+				03A76598190C401400B6350F /* AboutAnthemViewController.m in Sources */,
 				03A7655F190C3C9E00B6350F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +396,7 @@
 				03A76565190C3C9F00B6350F /* Base */,
 			);
 			name = Main.storyboard;
+			path = RugbyAnthems;
 			sourceTree = "<group>";
 		};
 		03A7657A190C3C9F00B6350F /* InfoPlist.strings */ = {
@@ -456,6 +565,7 @@
 				03A76583190C3C9F00B6350F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03A76584190C3C9F00B6350F /* Build configuration list for PBXNativeTarget "RugbyAnthemsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +574,7 @@
 				03A76586190C3C9F00B6350F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
