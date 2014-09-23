@@ -18,7 +18,6 @@
 @property (strong, nonatomic) NSNumber              *countryID;
 @property (nonatomic, strong) UIImage               *image;
 
-
 @property (nonatomic, strong) NSArray               *countries;
 
 -(NSArray *) getCountryFromJSONArray:(NSArray *)jsonArray;

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="xqG-L7-9Nl">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -137,7 +136,7 @@
                         <outlet property="aboutButton" destination="14S-hc-SRX" id="lrV-7Q-oxJ"/>
                         <outlet property="flagView" destination="W3f-iM-Miu" id="BuG-U5-QEJ"/>
                         <outlet property="lyricsButton" destination="qIy-wc-4EX" id="0GO-EH-bd5"/>
-                        <outlet property="songName" destination="gVZ-BG-q82" id="oi1-jH-PuL"/>
+                        <outlet property="songLabel" destination="gVZ-BG-q82" id="Fvk-VK-WbV"/>
                         <outlet property="translatedButton" destination="BmN-L3-8kL" id="CQj-k7-N82"/>
                     </connections>
                 </viewController>

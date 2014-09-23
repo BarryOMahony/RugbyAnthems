@@ -79,7 +79,7 @@
     if ([segue.identifier isEqualToString:@"segue"]){
         NSIndexPath *indexPath = [self.homeTableView indexPathForSelectedRow];
         CountryDetailViewController *destViewController = segue.destinationViewController;
-        destViewController.songName = [_countries objectAtIndex:indexPath.row];
+        destViewController.country = [[_countries objectAtIndex:indexPath.row]countryName];
         
     }
     
