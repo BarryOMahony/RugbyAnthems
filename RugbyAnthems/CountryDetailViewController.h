@@ -16,6 +16,7 @@
 @property (weak, nonatomic)   IBOutlet UILabel *songLabel;
 
 @property (nonatomic, strong) NSString *country;
+@property (nonatomic, strong) UIImage *flager;
 
 @property (strong, nonatomic) IBOutlet UIButton *aboutButton;
 @property (strong, nonatomic) IBOutlet UIButton *lyricsButton;

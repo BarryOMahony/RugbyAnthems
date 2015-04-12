@@ -27,7 +27,7 @@
     
     CountryClass *country = [[CountryClass alloc] init];
     
-    NSDictionary *Ireland = @{ @"flag" : @"Irish Flag.png", @"Title" : @"Ireland", @"lyrics" : @"Australians all let us rejoice, For we are young and free, We’ve golden soil and wealth for toil, Our home is girt by sea, Our land abounds in nature’s gifts, Of beauty rich and rare, In history’s page, let every stage, Advance Australia Fair. In joyful strains then let us sing, Advance Australia Fair. Beneath our radiant Southern Cross, We’ll toil with hearts and hands, To make this Commonwealth of ours, Renowned of all the lands, For those who’ve come across the seas, We’ve boundless plains to share, With courage let us all combine, To Advance Australia Fair. In joyful strains then let us sing, Advance Australia Fair."};
+    NSDictionary *Ireland = @{ @"flag" : @"FlagIreland", @"Title" : @"Ireland", @"lyrics" : @"Australians all let us rejoice, For we are young and free, We’ve golden soil and wealth for toil, Our home is girt by sea, Our land abounds in nature’s gifts, Of beauty rich and rare, In history’s page, let every stage, Advance Australia Fair. In joyful strains then let us sing, Advance Australia Fair. Beneath our radiant Southern Cross, We’ll toil with hearts and hands, To make this Commonwealth of ours, Renowned of all the lands, For those who’ve come across the seas, We’ve boundless plains to share, With courage let us all combine, To Advance Australia Fair. In joyful strains then let us sing, Advance Australia Fair."};
     
     NSDictionary *NewZealand = @{ @"flag" : @"FlagNewZealand", @"Title" : @"NewZealand", @"lyrics" : @"Australians all let us rejoice, For we are young and free, We’ve golden soil and wealth for toil, Our home is girt by sea, Our land abounds in nature’s gifts, Of beauty rich and rare, In history’s page, let every stage, Advance Australia Fair. In joyful strains then let us sing, Advance Australia Fair. Beneath our radiant Southern Cross, We’ll toil with hearts and hands, To make this Commonwealth of ours, Renowned of all the lands, For those who’ve come across the seas, We’ve boundless plains to share, With courage let us all combine, To Advance Australia Fair. In joyful strains then let us sing, Advance Australia Fair."};
     
@@ -70,22 +70,23 @@
     
     CountryClass *country = [_countries objectAtIndex:indexPath.row];
     cell.textLabel.text = country.countryName;
-    cell.imageView.image = [UIImage imageNamed:country.image];
+    //cell.imageView.image = [UIImage imageNamed:country.image];
     cell.detailTextLabel.text = country.songTitle;
     return cell;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"segue"]){
+    if ([segue.identifier isEqualToString:@"segue"]) {
         NSIndexPath *indexPath = [self.homeTableView indexPathForSelectedRow];
         CountryDetailViewController *destViewController = segue.destinationViewController;
         destViewController.country = [[_countries objectAtIndex:indexPath.row]countryName];
+        destViewController.flagView = [[_countries objectAtIndex:indexPath.row]image];
         
-    }
+        }
     
 }
 
-    
+
 
 - (void)didReceiveMemoryWarning
 {
